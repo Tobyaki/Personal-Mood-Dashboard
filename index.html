@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Difference between ".innerHTML" and ".innerText"
+    .innerHTML reads both the HTML markup/content and the text content of the element, while .innerText reads only the text content. -->
+    <header>
+      <h1 id="dashboard">My Dashboard</h1>
+      <button id="toggleBtn">Toggle Day/Night</button>
+    </header>
+
+    <main>
+      <div class="greetingBox">
+        <input type="text" id="nameInput" placeholder="Enter your name" />
+        <p id="greeting">Hello, friend!</p>
+      </div>
+
+      <h1 id="title">Mood Box</h1>
+      <div class="moodBox"></div>
+      <div class="buttons">
+        <button id="grow">Grow</button>
+        <button id="shrink">Shrink</button>
+      </div>
+
+      <div class="motivation">
+        <button id="secretBtn">Show Secret</button>
+        <p id="secret">
+          You can do all thinks through Christ who strengthens you. So don't
+          give up!
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
