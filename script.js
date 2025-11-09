@@ -27,7 +27,8 @@ header.style.flexDirection = "row";
 header.style.justifyContent = "space-between";
 toggle.style.borderRadius = "15px";
 toggle.style.height = "30px";
-toggle.style.margin = "20px";
+toggle.style.margin = "25px";
+dashboard.style.marginLeft = "25px";
 
 //main
 main.style.display = "flex";
