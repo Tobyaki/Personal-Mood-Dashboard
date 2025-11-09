@@ -65,13 +65,11 @@ toggle.addEventListener("click", () => {
     dashboard.style.color = "white";
     secretText.style.color = "white";
     title.style.color = "white";
-    value.style.color = "white";
   } else {
     body.style.backgroundColor = "white";
     dashboard.style.color = "black";
     secretText.style.color = "black";
     title.style.color = "black";
-    value.style.color = "black";
   }
 });
 
