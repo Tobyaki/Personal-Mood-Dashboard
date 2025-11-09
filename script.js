@@ -89,14 +89,24 @@ input.addEventListener("input", () => {
 });
 
 //Grow or Shrink box
+let boxSize = 200;
+let minSize = 150;
+let maxSize = 250;
+
 grow.addEventListener("click", () => {
-  box.style.height = "250px";
-  box.style.width = "250px";
+  if (boxSize < maxSize) {
+    boxSize += 5;
+    box.style.height = boxSize + "px";
+    box.style.width = boxSize + "px";
+  }
 });
 
 shrink.addEventListener("click", () => {
-  box.style.height = "150px";
-  box.style.width = "150px";
+  if (boxSize > minSize) {
+    boxSize -= 5;
+    box.style.height = boxSize + "px";
+    box.style.width = boxSize + "px";
+  }
 });
 
 //Hide/Show Text
