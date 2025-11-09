@@ -28,6 +28,7 @@ header.style.justifyContent = "space-between";
 toggle.style.borderRadius = "15px";
 toggle.style.height = "30px";
 toggle.style.margin = "25px";
+toggle.style.fontSize = "10px";
 dashboard.style.marginLeft = "25px";
 
 //main
